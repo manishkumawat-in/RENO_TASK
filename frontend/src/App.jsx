@@ -18,7 +18,7 @@ function App() {
 
       <Routes>
         <Route path="/add-school" element={<AddSchool />} />
-        <Route path="/view-school" element={<SchoolList />} />
+        <Route path="/" element={<SchoolList />} />
         <Route
           path="/*"
           element={
