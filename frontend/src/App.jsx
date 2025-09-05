@@ -11,7 +11,7 @@ function App() {
         <Link to="/add-school" className="hover:underline">
           Add School
         </Link>
-        <Link to="/view-school" className="hover:underline">
+        <Link to="/" className="hover:underline">
           View Schools
         </Link>
       </nav>
