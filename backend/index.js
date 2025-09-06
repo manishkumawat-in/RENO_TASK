@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://reno-task-frontend.onrender.com",
+    origin: "https://renotask-production.up.railway.app",
     methods: ["GET", "POST"],
   })
 );
