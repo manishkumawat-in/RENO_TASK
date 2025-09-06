@@ -21,6 +21,6 @@ app.get("/", (req, res) => {
 
 app.use("/api/school", schoolRouter);
 
-app.listen(port || 5000, () => {
+app.listen(port || 5000, "0.0.0.0", () => {
   console.log(`Server is running on port ${port}`);
 });
